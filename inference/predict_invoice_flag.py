@@ -1,7 +1,7 @@
 import joblib
 import pandas as pd
 
-MODEL_PATH = "D:/My_Projects/ML/Invoice_Intelligence/Invoice_Flagging/models/predict_flag_invoice.pkl"
+MODEL_PATH = "predict_flag_invoice.pkl"
 
 def load_model(model_path: str = MODEL_PATH):
     '''Load trained classifier model.'''
