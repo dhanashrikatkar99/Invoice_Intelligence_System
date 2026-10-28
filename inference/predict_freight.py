@@ -1,6 +1,6 @@
 import joblib
 import pandas as pd
-MODEL_PATH = "D:/My_Projects/ML/Invoice_Intelligence/Freight_cost_prediction/models/predict_freight_model.pkl"
+MODEL_PATH = "predict_freight_model.pkl"
 
 def load_model(model_path: str = MODEL_PATH):
     '''Load trained freight cost prediction model.'''
