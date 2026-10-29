@@ -19,9 +19,8 @@ An AI-powered Vendor Invoice Intelligence Portal built with Python, Streamlit, a
   - [Run the Application](#4-run-the-application)
 - [How to Use](#-how-to-use)
 - [Business Value](#-business-value)
-- [Future Enhancements](#-future-enhancements)
 - [Author](#-author)
-- [License](#-license)
+
 
 
 ## 📌 Overview
