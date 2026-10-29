@@ -10,7 +10,7 @@ An AI-powered Vendor Invoice Intelligence Portal built with Python, Streamlit, a
 
 - [Overview](#-overview)
 - [Features](#-features)
-- [Machine Learning Models & Performance](#-Machine-Learning-Models-&-Performance)
+- [Machine Learning Models & Performance](#-Machine-Learning-Models--Performance)
 - [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
 - [Getting Started](#-getting-started)
@@ -65,7 +65,7 @@ Linear Regression was selected as the final freight cost prediction model becaus
 - **RMSE (Root Mean Squared Error):** Measures prediction error while penalizing larger errors more heavily.
 - **R² Score:** Measures how much of the variation in freight costs is explained by the model.
 
-**Saved Model:** `models/predict_freight_model.pkl`
+**Saved Model:** `predict_freight_model.pkl`
 
 ### 2. Invoice Manual-Approval Flagging
 
@@ -94,6 +94,8 @@ Linear Regression was selected as the final freight cost prediction model becaus
 The Random Forest Classifier achieved **89% accuracy** on the evaluation dataset.
 
 Class 1 achieved **96% precision** and **71% recall**. This means the model performs well when identifying predicted Class 1 cases, but it misses some actual Class 1 cases. If Class 1 represents invoices requiring manual approval, improving recall could help reduce missed reviews.
+
+**Saved Model:** `predict_flag_model.pkl`
 
 ### 📊 Model Selection Summary
 
